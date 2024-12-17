@@ -5,7 +5,9 @@ Poles está começando sua loja sua loja online de itens. Inicialmente ele quer 
 Dada a lista itens a seguir, Poles precisa ver se os itens foram cadastrados corretamente. Para isso, depois de fazer os cadastros execute a query "SELECT * FROM item;".
 
 > Itens
+
 | cod_item | nome | preco | quantidade |
+| --- | --- | --- | --- |
 | 1 | Arco | 20 | 22 |
 | 2 | Flecha | 2 | 43 |
 | 3 | Espada | 5 | 16 |
@@ -21,17 +23,21 @@ Poles começou a vender itens em sua loja online. Ele já tem um controle de ite
 Dada a lista de vendas e de itens vendidos a seguir, Poles precisa de duas informações: A quantidade média (inteira) de itens vendidos por venda e uma lista contendo o código dos 5 itens mais vendidos em ordem decrescente da quantidade total vendida.
 
 > Vendas
+
 | cod | data_hora | email_usuario |
-| 1 2024-05-10 11:22 | j@g.com |
-| 2 2024-05-12 11:22 | k@g.com |
-| 3 2024-05-13 11:22 | a@g.com |
-| 4 2024-05-13 11:22 | r@g.com |
-| 5 2024-05-13 11:22 | r@g.com |
-| 6 2024-05-14 11:22 | f@g.com |
-| 7 2024-05-15 11:22 | r@g.com |
+| --- | --- | --- |
+| 1 | 2024-05-10 11:22 | j@g.com |
+| 2 | 2024-05-12 11:22 | k@g.com |
+| 3 | 2024-05-13 11:22 | a@g.com |
+| 4 | 2024-05-13 11:22 | r@g.com |
+| 5 | 2024-05-13 11:22 | r@g.com |
+| 6 | 2024-05-14 11:22 | f@g.com |
+| 7 | 2024-05-15 11:22 | r@g.com |
 
 > Itens Vendidos
+
 | cod_venda | cod_item | quantidade |
+| --- | --- | --- |
 | 1 | 1 | 15 |
 | 1 | 3 | 5 |
 | 2 | 2 | 2 |
@@ -50,7 +56,9 @@ Poles precisa controlar o estoque da sua loja. Ele já tem um controle de itens 
 Dadas as listas de itens, de vendas e de itens vendidos a seguir, Poles precisa atualizar o estoque dos itens. Além disso ele precisa de uma lista com os nomes dos itens e suas quantidade em estoque dos itens com menos de 10 peças no estoque em ordem crescente da quantidade disponível.
 
 > Itens
+
 | cod_item | nome | preco | quantidade |
+| --- | --- | --- | --- |
 | 1 | Arco | 20 | 22 |
 | 2 | Flecha | 2 | 43 |
 | 3 | Espada | 5 | 16 |
@@ -61,17 +69,21 @@ Dadas as listas de itens, de vendas e de itens vendidos a seguir, Poles precisa 
 | 8 | Machado | 20 | 21 |
 
 > Vendas
+
 | cod | data_hora | email_usuario |
-| 1 2024-05-10 11:22 | j@g.com |
-| 2 2024-05-12 11:22 | k@g.com |
-| 3 2024-05-13 11:22 | a@g.com |
-| 4 2024-05-13 11:22 | r@g.com |
-| 5 2024-05-13 11:22 | r@g.com |
-| 6 2024-05-14 11:22 | f@g.com |
-| 7 2024-05-15 11:22 | r@g.com |
+| --- | --- | --- |
+| 1 | 2024-05-10 11:22 | j@g.com |
+| 2 | 2024-05-12 11:22 | k@g.com |
+| 3 | 2024-05-13 11:22 | a@g.com |
+| 4 | 2024-05-13 11:22 | r@g.com |
+| 5 | 2024-05-13 11:22 | r@g.com |
+| 6 | 2024-05-14 11:22 | f@g.com |
+| 7 | 2024-05-15 11:22 | r@g.com |
 
 > Itens Vendidos
+
 | cod_venda | cod_item | quantidade |
+| --- | --- | --- |
 | 1 | 1 | 15 |
 | 1 | 3 | 5 |
 | 2 | 2 | 2 |
@@ -90,7 +102,9 @@ Poles precisa controlar agora o lucro que está tendo com as vendas da sua loja.
 Dadas as listas de itens, de vendas e de itens vendidos a seguir, Poles precisa do valor total do lucro obtido nessas vendas.
 
 > Itens
+
 | cod_item | nome | preco | quantidade |
+| --- | --- | --- | --- |
 | 1 | Arco | 20 | 22 |
 | 2 | Flecha | 2 | 43 |
 | 3 | Espada | 5 | 16 |
@@ -101,17 +115,21 @@ Dadas as listas de itens, de vendas e de itens vendidos a seguir, Poles precisa 
 | 8 | Machado | 20 | 21 |
 
 > Vendas
+
 | cod | data_hora | email_usuario |
-| 1 2024-05-10 11:22 | j@g.com |
-| 2 2024-05-12 11:22 | k@g.com |
-| 3 2024-05-13 11:22 | a@g.com |
-| 4 2024-05-13 11:22 | r@g.com |
-| 5 2024-05-13 11:22 | r@g.com |
-| 6 2024-05-14 11:22 | f@g.com |
-| 7 2024-05-15 11:22 | r@g.com |
+| --- | --- | --- |
+| 1 | 2024-05-10 11:22 | j@g.com |
+| 2 | 2024-05-12 11:22 | k@g.com |
+| 3 | 2024-05-13 11:22 | a@g.com |
+| 4 | 2024-05-13 11:22 | r@g.com |
+| 5 | 2024-05-13 11:22 | r@g.com |
+| 6 | 2024-05-14 11:22 | f@g.com |
+| 7 | 2024-05-15 11:22 | r@g.com |
 
 > Itens Vendidos
+
 | cod_venda | cod_item | quantidade |
+| --- | --- | --- |
 | 1 | 1 | 15 |
 | 1 | 3 | 5 |
 | 2 | 2 | 2 |
