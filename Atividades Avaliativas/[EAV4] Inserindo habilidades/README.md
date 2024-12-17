@@ -1,10 +1,11 @@
-# Inserindo habilidades
+# 3 - Inserindo habilidades
 
 Crie a tabela de habilidades e cadastre as seguintes informações:
 
 > Habilidades
 
 | id | descrição | atributo base  |
+| --- | --- | --- |
 | 1 | Corrida longa | Constituição  |
 | 2 | Corrida de arrancada | Força  |
 | 3 | Acrobacia	 | Destreza  |
