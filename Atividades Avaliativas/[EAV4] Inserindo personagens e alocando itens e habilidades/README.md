@@ -1,4 +1,4 @@
-# Inserindo personagens e alocando itens e habilidades
+# 4 - Inserindo personagens e alocando itens e habilidades
 
 Para essa atividade, considere que os Mundos, Habilidades e Itens considerados nas atividades anteriores sejam cadastrados. 
 
@@ -7,6 +7,7 @@ Crie a tabela de personagem e cadastre as seguintes informações:
 > Personagens
 
 | id | nome | idade | profissão | data de criação | mundo |
+| --- | --- | ---| --- | --- | --- |
 | 1 | Ann`aurora | 21 | Clériga | 2024-06-05 | 1 |
 | 2	| Zurendownr Narrwack | 652 | Diplomata | 2024-06-05 | 1 |
 
