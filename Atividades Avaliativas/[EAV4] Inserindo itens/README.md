@@ -1,8 +1,9 @@
-# Inserindo itens
+# 2 - Inserindo itens
 
 Crie o esquema para os itens e cadastre as seguintes informações:
 
 | id | nome | preço | peso | vol | efeito | cap_peso |cap_vol | classe | dano |
+| --- | --- | --- | --- | --- | ---| --- | --- | --- | --- |
 | 1 | Ungento restaurador | 80 |0.2 | 0.25 | - | - | - | - | - |
 | 2 | Poção de regeneração | 200 |0.2 | 0.35 | Cicatriza ferimentos profundos (1d4+2 PV) | - | - | - | - |
 | 3	| Bolsa de explorador | 20 | 0.6 | 1.2 | - |  50 | 23.6 | - | - |
