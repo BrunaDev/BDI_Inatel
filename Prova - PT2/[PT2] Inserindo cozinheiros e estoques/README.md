@@ -4,9 +4,9 @@ Crie a tabela de cozinheiros, ingredientes e estoques e cadastre as seguintes in
 
 > Cozinheiros
 
-| id | nome	e-mail | senha |
-| --- | --- | --- |
-| 1	| Soebad Saliv | contato@poisonfrit.com	 Jaca_1234 |
+| id | nome |	e-mail | senha |
+| --- | --- | --- | --- |
+| 1	| Soebad Saliv | contato@poisonfrit.com | Jaca_1234 |
 | 2	| Poles Najos | poles@g.com	| DnD13# |
 | 3 | Sani Vosjal | sani@g.com | Kituti67! |
 
@@ -30,6 +30,7 @@ Crie a tabela de cozinheiros, ingredientes e estoques e cadastre as seguintes in
 > Estoques
 
 | cozinheiro | ingrediente | quantidade |
+| --- | --- | --- |
 | 1	| 5 | 1854 |
 | 1	| 6	| 985 |
 | 1	| 8	| 1520 |
